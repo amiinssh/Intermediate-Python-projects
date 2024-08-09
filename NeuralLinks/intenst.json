@@ -1,0 +1,34 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi","good morning", "good afternoon", "good evening", "greetings", "Greetings", "hey, whats up", "how is it going?"],
+    "responses": ["hello!", "hey!", "hi!","good morning!", "good afternoon!", "good evening!", "greetings!", "Greetings!", "hey, whats up!", "how is it going?", "what can I do for you?"]
+},
+{"tag": "bye",
+    "patterns": ["bye", "goodbye", "farewell","auf wiedersehen", "Tchuss"],
+    "responses": ["bye!", "goodbye!", "farewell!","auf wiedersehen!", "Tchuss", "good evening!"]
+},
+{"tag": "thanks",
+    "patterns": ["thanks", "thank you", "danke"],
+    "responses": ["thanks!", "thank you!", "danke!"]
+},
+{"tag": "age",
+    "patterns": ["how old are you?", "whats your age?", "what age?"],
+    "responses": ["my owner is 23!", "23", "I was born just yesterday!"]
+}, 
+{"tag": "name",
+    "patterns": ["whats your name?", "name?", "can you tell me your name?"],
+    "responses": ["my name is Chadgpt", "Chadgpt", "I am Chadgpt", "Chadgpt at your service!"]
+},
+{"tag": "shop",
+    "patterns": ["what are your products?", "I want to buy something from you", "what do you have on sale?", "what do you have to offer?"],
+    "responses": ["I sell candy!", "candy", "I have candy to offer !"]
+},
+{"tag": "hours",
+    "patterns": ["what time is it?", "whats the clock?", "wie spat ist es?", "What time is it now?"],
+    "responses": ["24/7"]
+},
+{"tag": "stocks",
+    "patterns": ["whats apple stock price?", "what stock do I own?", "whats the cheapest stock today?"],
+    "responses": ["your following shares are NASDAC-ABBY-APPLE-FANG", "openai stock crasched quit rapidly today"]
+}                   
+]}
